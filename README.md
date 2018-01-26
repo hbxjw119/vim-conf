@@ -22,4 +22,4 @@ Usage
 > 下面两步个人喜好，可以不用
 5. mv monokai.vim ~/.vim/bundle/vim-colors-solarized/colors 
 
-6. edit ~/.vimrc and set colorscheme monokai 
+6. 编辑 ~/.vimrc， 设置 colorscheme monokai 

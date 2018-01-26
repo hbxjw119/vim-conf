@@ -60,3 +60,6 @@ nnoremap <leader>c :CtrlP<CR>
 nnoremap nw <C-W><C-W>
 nmap <Leader>q :q<CR>
 nmap <Leader>w :w<CR>
+" autocmd VimEnter * NERDTree
+
+command -nargs=? Sudow :w !sudo tee %
