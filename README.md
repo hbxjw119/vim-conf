@@ -1,4 +1,4 @@
-Vim configure for developers.
+vim and zsh configure for developers.
 
 Usage
 =====
@@ -22,4 +22,4 @@ Usage
 > 下面两步个人喜好，可以不用
 5. mv monokai.vim ~/.vim/bundle/vim-colors-solarized/colors 
 
-6. 编辑 ~/.vimrc， 设置 colorscheme monokai 
+6. 编辑 ~/.vimrc， 设置 colorscheme monokai;  编辑~/.zshrc, 添加zsh-autosuggestions插件，大约在62行，在git后，添加zsh-autosuggestions

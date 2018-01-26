@@ -18,4 +18,22 @@ fi
 ln -s $PWD/vimrc $HOME/.vimrc
 ln -s $PWD/vim $HOME/.vim
 
+# check zsh
+zsh=`cat /etc/shells | grep zsh`
+if [[ "$zsh" == ""  ]]
+then
+	linux_cate=`python -mplatform | grep -i centos`
+	if [[ "$linux_cate" ]]
+	then
+		sudo yum install zsh
+	else
+		sudo apt-get install zsh
+	fi
+fi
+
+# get oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# get zsh-sug
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+
 echo "Done!"
