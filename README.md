@@ -6,13 +6,13 @@ Usage
 1. clone本项目
 
 	```bash
-	git clone https://github.com/hbxjw119/vim-conf.git
+	git clone https://github.com/hbxjw119/vim-zsh-conf.git
 	```
 
 2. 安装bundle管理器
 
 	```bash
-	cd vim-conf
+	cd vim-zsh-conf
 	./init.sh
 	```
 3. 编辑 vimrc 文件, 确认要安装的插件，或者删除不喜欢用的插件
