@@ -18,13 +18,14 @@ fi
 ln -s $PWD/vimrc $HOME/.vimrc
 ln -s $PWD/vim $HOME/.vim
 
+echo "vim configuration completed!"
+echo "config zsh..."
 # check zsh
 zsh=`cat /etc/shells | grep zsh`
-if [[ "$zsh" == ""  ]]
-then
+
+if [ -z "$zsh" ]; then
 	linux_cate=`python -mplatform | grep -i centos`
-	if [[ "$linux_cate" ]]
-	then
+	if [ "$linux_cate" ]; then
 		sudo yum install zsh
 	else
 		sudo apt-get install zsh
