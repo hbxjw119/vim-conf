@@ -18,6 +18,8 @@ fi
 ln -s $PWD/vimrc $HOME/.vimrc
 ln -s $PWD/vim $HOME/.vim
 
+mv monokai.vim ~/.vim/bundle/vim-colors-solarized/colors
+
 echo "vim configuration completed!"
 echo "config zsh..."
 # check zsh
