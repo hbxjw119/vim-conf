@@ -24,4 +24,4 @@ Usage
 
 5. edit ~/.vimrc， set colorscheme monokai
 
-6. edit ~/.zshrc, add zsh-autosuggestions plugins, *not mecessary step*
+6. edit ~/.zshrc, add zsh-autosuggestions plugins, **not necessary step**
