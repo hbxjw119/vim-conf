@@ -2,7 +2,7 @@ vim and zsh configure for developers.
 
 System required:
 =====
-CentOS  Ubuntu
+**CentOS**  or  **Ubuntu**
 
 Usage
 =====
@@ -22,6 +22,8 @@ Usage
 
 3. open vim，change command line mode, execute ":BundleInstall" to install plugins
 
-5. edit ~/.vimrc， set colorscheme monokai
+4. mv monokai.vim ~/.vim/bundle/vim-colors-solarized/colors
 
-6. edit ~/.zshrc, add zsh-autosuggestions plugins, **not necessary step**
+**the next step is not neccessary**
+5. git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+6. edit ~/.zshrc, add zsh-autosuggestions plugins

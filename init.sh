@@ -18,8 +18,6 @@ fi
 ln -s $PWD/vimrc $HOME/.vimrc
 ln -s $PWD/vim $HOME/.vim
 
-mv monokai.vim ~/.vim/bundle/vim-colors-solarized/colors
-
 echo "vim configuration completed!"
 echo "config zsh..."
 # check zsh
@@ -36,7 +34,5 @@ fi
 
 # get oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-# get zsh-sug
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
 
 echo "Done!"
