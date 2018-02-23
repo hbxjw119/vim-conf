@@ -24,6 +24,9 @@ Usage
 
 4. mv monokai.vim ~/.vim/bundle/vim-colors-solarized/colors
 
+
 **the next step is not neccessary**
+
 5. git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+
 6. edit ~/.zshrc, add zsh-autosuggestions plugins
